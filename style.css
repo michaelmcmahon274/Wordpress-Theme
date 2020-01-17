@@ -833,7 +833,8 @@ a:hover, a:active {
 }
 .widget-area {
 	float: right;
-	
+	width: 20%;
+
 
 }
 
