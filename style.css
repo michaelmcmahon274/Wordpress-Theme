@@ -647,10 +647,18 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
+.site-main {
+
+	margin: auto;
+
+}
+	
+
+
 .main-navigation {
 	clear: both;
 	display: block;
-	float: right;
+	float: left;
 	width: 100%;
 	
 }
