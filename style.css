@@ -639,7 +639,7 @@ a:hover, a:active {
 .main-navigation {
 	clear: both;
 	display: block;
-	float: left;
+	float: center;
 	width: 100%;
 }
 
@@ -869,6 +869,7 @@ a:hover, a:active {
 .entry-summary {
 	margin: 1.5em 0 0;
 }
+
 
 .page-links {
 	clear: both;
