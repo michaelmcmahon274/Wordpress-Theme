@@ -15,7 +15,7 @@ get_header();
 
 			<section class="error-404 not-found">
 				<header class="page-header">
-				<img src="wp-content/themes/Wordpress-Theme/assets/images/compass-ValentinAntonucc-pexels.png" alt="Compass">
+				
 					<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'uppercase' ); ?></h1>
 				</header><!-- .page-header -->
 
@@ -23,7 +23,7 @@ get_header();
 					
 				<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links Above?', 'uppercase' ); ?></p>
 					
-				
+				<img src="wp-content/themes/Wordpress-Theme/assets/images/compass-ValentinAntonucc-pexels.png" alt="Compass">
 				
 					
 
