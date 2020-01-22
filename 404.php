@@ -23,7 +23,7 @@ get_header();
 				<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links Above?', 'uppercase' ); ?></p>
 					
 				
-				<img src="/wp-content/Wordpress-Theme/assets/images/compass-ValentinAntonucc-pexels.png" alt="Compass">
+				<img src="wp-content/themes/Wordpress-Theme/assets/images/compass-ValentinAntonucc-pexels.png" alt="Compass">
 					
 
 					
