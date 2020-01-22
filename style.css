@@ -613,12 +613,16 @@ textarea {
 .site-header {
     text-align: center;
     color: white;
-    background-color: blue;
+    
 }
-.site-title{
+.main-navigation{
+	background-color:black;
+	display:flex;
+	justify-content:center;
+}
+	
 
-	color: white;
-}
+
 
 /*--------------------------------------------------------------
 ## Links
