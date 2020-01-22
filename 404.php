@@ -20,12 +20,8 @@ get_header();
 
 				<div class="page-content">
 					<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'uppercase' ); ?></p>
-
-					<?php
-					get_search_form();
-
-					the_widget( 'WP_Widget_Recent_Posts' );
-					?>
+					<img title="" class="scale-with-grid" alt="" src="/assets/images/compass-ValentinAntonucc-pexels.png">
+					
 
 					<div class="widget widget_categories">
 						<h2 class="widget-title"><?php esc_html_e( 'Most Used Categories', 'uppercase' ); ?></h2>
