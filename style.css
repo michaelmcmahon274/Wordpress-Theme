@@ -612,12 +612,12 @@ textarea {
 --------------------------------------------------------------*/
 .site-header {
     text-align: center;
-	color: blue;
+	color:black;
 	
    
 }
 .main-navigation{
-	background-color:black;
+	
 	display:flex;
 	justify-content:center;
 }
