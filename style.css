@@ -616,11 +616,7 @@ textarea {
 	
    
 }
-.main-navigation{
-	
-	display:flex;
-	justify-content:center;
-}
+
 	
 
 
@@ -695,8 +691,9 @@ a:hover, a:active {
 }
 
 .main-navigation li {
-	float: left;
-	position: relative;
+	display: inline-block;
+	font-size: 20px;
+	padding: 20px;
 }
 
 .main-navigation a {
