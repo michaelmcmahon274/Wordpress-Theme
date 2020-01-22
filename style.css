@@ -613,7 +613,7 @@ textarea {
 .site-header {
     text-align: center;
     color: white;
-    
+    background-color: blue;
 }
 .main-navigation{
 	background-color:black;
@@ -653,9 +653,9 @@ a:hover, a:active {
 .main-navigation {
 	clear: both;
 	display: block;
-	float: right;
+	float: left;
 	width: 100%;
-	text-align: center;
+	
 }
 
 .main-navigation ul {
@@ -857,6 +857,11 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
+.img {
+	float:left;
+
+}
+
 .site-header {
 
 
