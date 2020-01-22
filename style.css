@@ -639,7 +639,7 @@ a:hover, a:active {
 .main-navigation {
 	clear: both;
 	display: block;
-	float: center;
+	float: left;
 	width: 100%;
 }
 
@@ -842,7 +842,10 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
+.site-header {
 
+	
+}
 .content-area { 
 	float: left;
 	width: 70%;
