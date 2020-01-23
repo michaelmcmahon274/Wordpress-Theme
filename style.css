@@ -663,7 +663,11 @@ a:hover, a:active {
 
 }
 	
-
+.site-footer{
+	text-align: center;
+	
+	align-content: center;
+}
 
 .main-navigation {
 	clear: both;
