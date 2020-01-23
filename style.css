@@ -650,6 +650,7 @@ a:hover, a:active {
 .error-404 {
 	text-align: center;
 	display: inline-block;
+	align-content: center;
 
 }
 
