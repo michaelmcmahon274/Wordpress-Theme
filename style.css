@@ -647,9 +647,16 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
+.error-404 {
+	text-align: center;
+
+
+}
+
+
 .site-main {
 	
-	text-align: center;
+	text-align: left;
 	display:inline-block;
 	
 
@@ -867,10 +874,7 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 
 
-.site-header {
 
-
-}
 .content-area { 
 	float: left;
 	width: 70%;
