@@ -23,8 +23,8 @@ get_header();
 					
 				<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links Above?', 'uppercase' ); ?></p>
 					
-				<img src="wp-content/themes/Wordpress-Theme/assets/images/minions-404.jpg" alt="Minions">
 				
+				<img class="what-ever" src="<?php bloginfo('template_directory'); ?>/assets/images/minions-404.jpg" border="0" alt="Minions">
 					
 
 					
