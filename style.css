@@ -647,6 +647,14 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
+.main-navigation {
+	clear: both;
+	display: flex;
+	justify-content: center;
+	
+}
+
+
 .error-404 {
 	text-align: center;
 	
