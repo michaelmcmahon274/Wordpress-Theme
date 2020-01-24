@@ -656,9 +656,9 @@ a:hover, a:active {
 
 
 .error-404  {
-	text-align: center;
-	align-content: center;
-	margin-left: 250px;
+	text-align: center !important;
+	align-content: center  !important;
+	
 
 }
 
