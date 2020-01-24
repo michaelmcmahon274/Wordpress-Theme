@@ -649,8 +649,9 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 .main-navigation {
 	clear: both;
-	display: flex;
-	justify-content: center;
+	display: block;
+	text-align: center;
+	width:100%;
 	
 }
 
