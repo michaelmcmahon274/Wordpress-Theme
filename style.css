@@ -665,9 +665,9 @@ a:hover, a:active {
 
 .site-main {
 	
-	text-align: left;
-	display:inline-block;
-	
+	box-align:center;
+	padding-left:650px;
+	padding-top:100px;
 
 }
 	
