@@ -864,7 +864,7 @@ a:hover, a:active {
 	max-width: 100%;
 }
 .widget-area {
-	float: right;
+	float: left;
 	width: 30%;
 	margin-left: 10px;
 	padding:20px;
