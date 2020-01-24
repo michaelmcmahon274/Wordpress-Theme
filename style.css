@@ -651,7 +651,10 @@ a:hover, a:active {
 }
 
 
-
+.site-branding {
+	text-align:center;
+	padding:20px;
+}
 
 
 .site-main {
@@ -865,7 +868,7 @@ a:hover, a:active {
 	width: 30%;
 	margin-left: 10px;
 	padding:20px;
-
+	overflow:hidden;
 }
 
 /*--------------------------------------------------------------
