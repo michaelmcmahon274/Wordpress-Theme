@@ -610,12 +610,7 @@ textarea {
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
-.site-header {
-    text-align: center;
-	color:black;
-	
-   
-}
+
 
 	
 
@@ -656,35 +651,25 @@ a:hover, a:active {
 }
 
 
-.error-404  {
-	text-align: center !important;
-	align-content: center  !important;
-	
 
-}
 
 
 .site-main {
-	
+	clear:both;
 	box-align:center;
 	padding-left:650px;
 	padding-top:100px;
-
+	width:65%
 }
 	
 .site-footer{
 	text-align: center;
-	
+	overflow:hidden;
 	align-content: center;
+	padding: 20px;
 }
 
-.main-navigation {
-	clear: both;
-	display: block;
-	float: left;
-	width: 100%;
-	
-}
+
 
 .main-navigation ul {
 	display: none;
@@ -876,10 +861,10 @@ a:hover, a:active {
 	max-width: 100%;
 }
 .widget-area {
-	float: left;
-	width: 20%;
+	float: right;
+	width: 30%;
 	margin-left: 10px;
-
+	padding:20px;
 
 }
 
