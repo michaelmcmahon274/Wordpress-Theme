@@ -32,7 +32,7 @@ get_header();
 			/* Start the Loop */
 			while ( have_posts() ) :
 			//	the_post();
-				the _title();
+				the_title();
 				the_post_thumbnail();
 				the_author();
 				the_excerpt();
