@@ -54,7 +54,7 @@
 			) );
 			?>
 		</nav><!-- #site-navigation -->
-		<img alt="" src="<?php header_image(); ?>" width="<?php echo absint( get_custom_header()->width ); ?>" height="<?php echo absint( get_custom_header()->height ); ?>">
+		
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
