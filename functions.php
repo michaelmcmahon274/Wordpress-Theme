@@ -87,7 +87,7 @@ if ( ! function_exists( 'uppercase_setup' ) ) :
 endif;
 add_action( 'after_setup_theme', 'uppercase_setup' );
 
-add_action( 'after_setup_theme', 'themename_custom_header_setup' );
+
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *
