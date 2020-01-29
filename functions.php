@@ -34,7 +34,7 @@ if ( ! function_exists( 'uppercase_setup' ) ) :
 		 * provide it for us.
 		 */
 		add_theme_support( 'title-tag' );
-
+		
 		/*
 		 * Enable support for Post Thumbnails on posts and pages.
 		 *
@@ -83,9 +83,21 @@ if ( ! function_exists( 'uppercase_setup' ) ) :
 		add_theme_support( 'post-formats',  array ( 'aside', 'gallery', 'quote', 'image', 'video' ) );
 
 	}
+	
 endif;
 add_action( 'after_setup_theme', 'uppercase_setup' );
-
+function themename_custom_header_setup() {
+	$args = array(
+		'default-image'      => get_template_directory_uri() . 'img/default-image.jpg',
+		'default-text-color' => '000',
+		'width'              => 1000,
+		'height'             => 250,
+		'flex-width'         => true,
+		'flex-height'        => true,
+	)
+	add_theme_support( 'custom-header', $args );
+}
+add_action( 'after_setup_theme', 'themename_custom_header_setup' );
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *
