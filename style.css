@@ -643,6 +643,10 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
+.site-content {
+	background-color: #50654D;
+}
+
 .site-header {
 	text-align:center;
 	background-color: #313831;
