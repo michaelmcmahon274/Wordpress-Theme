@@ -643,6 +643,10 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
+.site-header {
+	text-align:center;
+}
+
 .main-navigation {
 	clear: both;
 	display: block;
@@ -655,6 +659,7 @@ a:hover, a:active {
 .site-branding {
 	text-align:center;
 	padding:20px;
+	background-color: gray;
 }
 
 
