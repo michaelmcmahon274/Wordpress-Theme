@@ -645,6 +645,7 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 .site-header {
 	text-align:center;
+	background-color: #313831;
 }
 
 .main-navigation {
@@ -877,6 +878,7 @@ a:hover, a:active {
 	margin-left: 10px;
 	padding:20px;
 	overflow:hidden;
+	background-color:#9c9177;
 }
 
 /*--------------------------------------------------------------
