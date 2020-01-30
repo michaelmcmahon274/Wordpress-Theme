@@ -65,6 +65,15 @@ if ( ! function_exists( 'uppercase_setup' ) ) :
 			'default-image' => '',
 		) ) );
 
+		add_theme_support( 'custom-header', apply_filters('uppercase_custom_header_args', array(
+			'default-image'			=>'',
+			'default-text-color'    =>'000000',
+			'width'					=> 1000,
+			'height'				=> 250,
+			'flex-height'			=> true,
+			'wp-head-callback'		=> 'uppercase_header_style',
+		)));
+		
 		// Add theme support for selective refresh for widgets.
 		add_theme_support( 'customize-selective-refresh-widgets' );
 
@@ -81,7 +90,7 @@ if ( ! function_exists( 'uppercase_setup' ) ) :
 		) );
 
 		add_theme_support( 'post-formats',  array ( 'aside', 'gallery', 'quote', 'image', 'video' ) );
-	
+		
 
 	}
 	
