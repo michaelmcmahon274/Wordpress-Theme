@@ -24,7 +24,7 @@ get_header();
 				<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links Above?', 'uppercase' ); ?></p>
 					
 				
-				<img class="what-ever" src="<?php bloginfo('template_directory'); ?>/assets/images/darkblack404.jpg" border="0" alt="darkblack404">
+				<img class="what-ever" src="<?php bloginfo('template_directory'); ?>/assets/images/darkblack404.png" border="0" alt="darkblack404">
 					
 
 					
