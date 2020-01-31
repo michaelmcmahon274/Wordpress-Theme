@@ -71,7 +71,7 @@ if ( ! function_exists( 'michaelstheme' ) ) :
 			'width'					=> 1000,
 			'height'				=> 250,
 			'flex-height'			=> true,
-		//	'wp-head-callback'		=> 'michaelstheme_header_style',
+		
 		)));
 
 		// Add theme support for selective refresh for widgets.
