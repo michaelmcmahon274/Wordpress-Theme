@@ -645,12 +645,14 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 
 .content-area { 
-	background-color: #50654D;
+	float: left;
 	width: 60%;
 	
 }
 
-
+.site-content {
+	background-color: #50654D;
+}
 
 .site-header {
 	text-align:center;
